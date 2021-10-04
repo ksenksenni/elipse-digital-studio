@@ -149,3 +149,7 @@
     .footer__content-copyright {
         color: #ffffff;
     }
+    
+    .footer__content-copyright:hover {
+        text-decoration: underline;
+    }
