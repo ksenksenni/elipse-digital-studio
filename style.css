@@ -1,0 +1,54 @@
+    @font-face {
+        font-family: 'Roboto-Regular';
+        src: url('fonts/Roboto-Regular.eot');
+        src: url('fonts/Roboto-Regular.eot') format('embedded-opentype'), url('fonts/Roboto-Regular.woff2') format('woff2'), url('fonts/Roboto-Regular.woff') format('woff'), url('fonts/Roboto-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    body {
+        font-family: 'Roboto-Regular', sans-serif;
+        font-size: 20px;
+        line-height: 23.44px;
+        color: #000000;
+    }
+    
+    .container {
+        max-width: 1290px;
+        margin: 0 auto;
+    }
+    /* header */
+    
+    .header {
+        background-color: #c4c4c4;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    
+    .header__contant {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header__contant-menu {
+        display: flex;
+        list-style: none;
+    }
+    
+    .header__contant-menu-item {
+        margin-right: 40px;
+    }
+    
+    .header__contant-menu-item:last-child {
+        margin-right: 0;
+    }
+    
+    .header__contant-menu-link {
+        color: #000000;
+        text-decoration: none;
+    }
+    
+    .header__contant-menu-link:hover {
+        opacity: 0.4;
+    }
