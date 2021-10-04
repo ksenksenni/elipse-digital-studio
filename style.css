@@ -52,3 +52,20 @@
     .header__contant-menu-link:hover {
         opacity: 0.4;
     }
+    /* footer */
+    
+    .footer {
+        background-color: #333333;
+        padding-top: 26px;
+        padding-bottom: 26px;
+    }
+    
+    .footer__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer__content-copyright {
+        color: #ffffff;
+    }
