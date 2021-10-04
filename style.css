@@ -52,6 +52,56 @@
     .header__contant-menu-link:hover {
         opacity: 0.4;
     }
+    /* main */
+    
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+    
+    .main__item {
+        max-width: 410px;
+        max-height: 410px;
+    }
+    
+    .main__item:first-child {
+        background-color: #78DEC7;
+    }
+    
+    .main__item-btn {
+        position: relative;
+        text-align: center;
+        vertical-align: middle;
+        padding: 15px 34px 16px 60px;
+        background-color: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+    }
+    
+    .main__item-btn::before {
+        content: "";
+        position: absolute;
+        top: 12px;
+        left: 35px;
+        background-image: url(img/spritesheet.png);
+        background-repeat: no-repeat;
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-position: -35px -5px;
+    }
+    
+    .main__item-btn:hover {
+        background-color: #000000;
+        border-color: #000000;
+        color: #ffffff;
+    }
+    
+    .main__item-btn:hover::before {
+        background-position: -5px -35px;
+    }
     /* footer */
     
     .footer {
