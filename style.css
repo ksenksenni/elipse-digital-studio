@@ -76,12 +76,13 @@
     
     .main__item-button {
         background-color: #78dec7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     .main__item-btn {
         position: relative;
-        text-align: center;
-        vertical-align: middle;
         padding: 15px 34px 16px 60px;
         background-color: #ffffff;
         border: 1px solid #ffffff;
