@@ -11,7 +11,7 @@
 
 <body>
 
-    <div class="pop-up">
+    <div class="pop-up shown">
         <div class="pop-up__block">
             <button class="pop-up__block-btn btn">Закрыть окно</button>
         </div>
@@ -19,7 +19,7 @@
 
 
     <header class="header">
-        <div class="container">
+        <div class="container container-burger">
             <div class="header__contant">
                 <img src="img/black-star.png" alt="Логотип">
 
@@ -30,6 +30,19 @@
                         <li class="header__contant-menu-item"><a href="#" class="header__contant-menu-link">Пункт меню</a></li>
                     </ul>
                 </nav>
+
+                <div class="burger-menu">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class="menu-btn" for="menu-toggle">
+                      <span></span>
+                    </label>
+
+                    <ul class="menubox">
+                        <li><a class="menu-item" href="#">Home</a></li>
+                        <li><a class="menu-item" href="#">About us</a></li>
+                        <li><a class="menu-item" href="#">Blog</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
