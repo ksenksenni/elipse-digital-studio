@@ -35,8 +35,7 @@ body {
 /* pop-up */
 
 .pop-up {
-    background-color: #000000;
-    opacity: 0.9;
+    background: rgba(0, 0, 0, 0.9);
     position: absolute;
     display: flex;
     justify-content: center;
@@ -61,7 +60,6 @@ body {
     width: 500px;
     height: 500px;
     background-color: #ffffff;
-    opacity: 1;
 }
 
 @media(max-width: 710px) {
